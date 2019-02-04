@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+
+<html lang="fr">
+<title>Formulaire</title>
+
+<!-- Équipier 1 : Alexandre-Sereyroeut Keo -->
+<!-- Équipier 2 : Ismaël Coulibaly -->
+
+<body>
+<!-- Exercice 1 -->
+<section>
+    <h1>Exercice 1</h1>
+        <form id="exercice-1" action="https://www.w3schools.com/action_page.php" method= "post" name="login">
+            
+            Nom d'utilisateur <input type ="text" name="username">
+            Mot de passe <input type ="password" name="password">
+            Login <input type="submit">
+            </form>
+        
+</section>
+
+<!-- Exercice 2 -->
+<section>
+        <h1>Exercice 2</h1>
+        <form id="exercice-2" action="https://www.w3schools.com/action_page.php" method="post" name="signin">
+            Nom <input type="text" name="f-name" required>
+            Prènom <input type="text" name="l-name" required>
+            Nom d'utilisateur <input type="text" name="username" required>
+            Mot de passe <input type="password" required>
+            Confirmation du mot de passe <input type="" name="c-password" required>
+            Signin <input type="submit">
+        </form>
+    </section>
+
+    <!-- Exercice 3 -->
+<section>
+        <h1>Exercice 3</h1>
+        <form id="exercice-3" action="https://www.w3schools.com/action_page.php" method="post">
+         Nom complet <input type="text" name="name" required>
+         Adresse <input type="text" name="address" required>
+         Avez-vous un numéro d'appartement <input type="radio" value="1"  name="is-apartment">Oui
+         <input type="radio" value="2" >non
+        Numéro appartement <input type="numero" name="n-apartement">
+        Téléphone <input type="tel" name="tel" placeholder="(555) 555-5555" required>
+        <br>
+        Pizza (taille) <select name="pizza-size" required> 
+            <option value="5$" selected>petite</option>
+            <option value="8$">moyenne</option>
+            <option value="12$">grande</option>
+        </select>
+        Pizza (sorte) <select name="pizza-type" required> 
+            <option value="13$" selected>pepperoni</option> 
+            <option value="10$">double fromage</option>
+            <option value="9$">végétarienne</option>
+            <option value="12$">végane</option>
+        </select>
+        Pizza (sorte) <input type="number" min ="1" step="1" value="1" required>
+        Pizza (sorte) <input type="checkbox" name="aucun" checked required>
+            Aucun
+            <input type="checkbox" name="frite">
+            frites
+            <input type="checkbox" name="boisson">
+            boisson
+            <input type="checkbox" name="poutine">
+            poutine
+        <br>
+        Commander <input type="submit">
+
+        </form>
+</section>
+</body>
+</html>
